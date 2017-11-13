@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.snapdragonbeast.pokedex.PokedexActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PokeDex"
+            android:textAlignment="center"
+            android:textSize="36dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Click a Pokemon to learn more about it." />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="PokemonClick"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/blastoise"
+                    android:tag="blastoise" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="PokemonClick"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/bulbasaur"
+                    android:tag="bulbasaur" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="PokemonClick"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/charmander"
+                    android:tag="charmander" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="PokemonClick"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/vulpix"
+                    android:tag="vulpix" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="PokemonClick"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/golbat"
+                    android:tag="golbat" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="PokemonClick"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/jigglypuff"
+                    android:tag="jigglypuff" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="PokemonClick"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/mewtwo"
+                    android:tag="mewtwo" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="PokemonClick"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/pikachu"
+                    android:tag="pikachu" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="PokemonClick"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/poliwag"
+                    android:tag="poliwag" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="PokemonClick"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/psyduck"
+                    android:tag="psyduck" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="PokemonClick"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/slowpoke"
+                    android:tag="slowpoke" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="PokemonClick"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/squirtle"
+                    android:tag="squirtle" />
+
+
+            </TableRow>
+        </TableLayout>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
